@@ -17,7 +17,7 @@ void merge (T begin, T mid, T end, U begin_buffer)
         }
         else {
             std::iter_swap (high, buf);
-            ++high;
+            high++;
         }
         buf++;
     }
